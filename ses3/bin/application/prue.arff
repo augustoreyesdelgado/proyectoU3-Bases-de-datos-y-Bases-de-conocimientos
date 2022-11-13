@@ -1,0 +1,39 @@
+@RELATION QueryResult-weka
+
+@ATTRIBUTE ent_resid        INTEGER
+@ATTRIBUTE mun_resid        INTEGER
+@ATTRIBUTE tloc_resid       INTEGER
+@ATTRIBUTE ent_ocurr        INTEGER
+@ATTRIBUTE mun_ocurr        INTEGER
+@ATTRIBUTE loc_ocurr        INTEGER
+@ATTRIBUTE tloc_ocurr       INTEGER
+@ATTRIBUTE sexo             INTEGER
+@ATTRIBUTE edad_madn        INTEGER
+@ATTRIBUTE edad_padn        INTEGER
+@ATTRIBUTE dia_nac          INTEGER
+@ATTRIBUTE mes_nac          INTEGER
+@ATTRIBUTE ano_nac          INTEGER
+@ATTRIBUTE tipo_nac         INTEGER
+@ATTRIBUTE orden_part       INTEGER
+@ATTRIBUTE lugar_part       INTEGER
+@ATTRIBUTE q_atendio        INTEGER
+@ATTRIBUTE hijos_vivo       INTEGER
+@ATTRIBUTE hijos_sobr       INTEGER
+@ATTRIBUTE edociv_mad       INTEGER
+@ATTRIBUTE escol_mad        INTEGER
+@ATTRIBUTE escol_pad        INTEGER
+@ATTRIBUTE act_mad          INTEGER
+@ATTRIBUTE act_pad          INTEGER
+@ATTRIBUTE sitlab_mad       INTEGER
+@ATTRIBUTE sitlab_pad       INTEGER
+@ATTRIBUTE fue_prese        {Muerto,Vivo}
+@ATTRIBUTE hora_nac         INTEGER
+
+@DATA
+2,5,2,1,6,1,9,1,19,21,11,12,2021,1,1,1,1,1,1,3,6,6,2,1,3,1,?,16
+7,17,10,7,101,1,15,1,37,39,16,7,2021,1,5,1,1,5,3,3,6,4,2,1,3,1,?,1
+4,2,15,1,1,1,15,1,27,29,9,12,2021,1,2,1,1,2,2,2,5,5,2,1,3,1,?,8
+1,89,99,7,15,9999,99,2,99,99,5,5,2021,1,1,9,9,1,99,9,9,9,9,9,9,9,?,13
+5,3,2,1,3,1,8,1,29,30,11,7,2021,1,4,1,1,4,4,1,6,5,2,1,3,1,?,22
+7,85,1,7,13,1,6,1,30,99,11,11,2021,1,2,1,1,2,1,1,5,9,2,9,3,9,?,1
+30,14,19,5,9,9,1,1,22,24,9,9,2020,1,1,1,1,1,1,2,6,6,1,1,1,5,?,6
